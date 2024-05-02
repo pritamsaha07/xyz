@@ -4,10 +4,7 @@ import MatchStatsSummary from "../components/MatchStatsSummary";
 import AccordianRecentMatches from "../components/AccordianRecentMatches";
 import styles from "./PageStructure.module.css";
 import React, { useState } from 'react';
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import Typography from '@mui/material/Typography';
-import { PieChart } from '@mui/x-charts/PieChart';
+
 
 const PageStructure = () => {
   const [activeOption, setActiveOption] = useState(0);
